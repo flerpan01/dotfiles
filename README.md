@@ -17,6 +17,8 @@ git clone git@github.com:flerpan01/dotfiles.git ${folder} && cd ${folder}
 
 <!--
 
+# ZSH manual: https://zsh-manual.netlify.app/
+
 # to do
 
 + add global git config to ignore files

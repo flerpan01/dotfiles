@@ -3,7 +3,7 @@ alias gs='git status --short'
 alias ga='git add'
 alias gd='git diff'
 alias gl='git log --oneline --all --decorate --graph'
-alias gc='git commit -m'
+alias gc='git commit'
 
 # make the prompt fancy:
 # + add git branch
@@ -13,4 +13,4 @@ parse_git_branch() {
 }
 
 setopt PROMPT_SUBST
-PROMPT='%9c%{%F{cyan}%}$(parse_git_branch)%{%F{none}%} $ '
+PROMPT='%9c%F{cyan}$(parse_git_branch)%f $ '
