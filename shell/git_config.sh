@@ -6,7 +6,8 @@ alias gl='git log --oneline --all --decorate --graph'
 alias gc='git commit -m'
 alias gca='git commit --amend'
 alias gcan='git commit --amend --no-edit'
-alias gb='git branch --format="%(HEAD) %(color:cyan)%(refname:short)%(color:reset) - %(contents:subject) %(color:blue)(%(committerdate:relative)) [%(authorname)]" --sort=-committerdate'
+alias gb='git branch --format="%(HEAD) %(color:cyan)%(refname:short)%(color:reset) - %(contents:subject) %(color:purple)(%(committerdate:relative))" --sort=-committerdate'
+#alias gb='git branch --format="%(HEAD) %(color:cyan)%(refname:short)%(color:reset) - %(contents:subject) %(color:blue)(%(committerdate:relative)) [%(authorname)]" --sort=-committerdate'
 
 # make the prompt fancy:
 # + add git branch
