@@ -16,10 +16,10 @@ git clone git@github.com:flerpan01/dotfiles.git ${folder} && cd ${folder}
 ```
 $ git log
 
-%h 					commit hash, short
-%d 					ref names
-%cr 				committer date, short
-%s 					git commit comment
+%h          commit hash, short
+%d          ref names
+%cr         committer date, short
+%s 	        git commit comment
 %C(<color>) set a color
 
 git log --graph --pretty=format:'%C(auto)%h %C(cyan)(%cr)%Creset%C(auto)%d%Creset %s'

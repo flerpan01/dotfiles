@@ -1,8 +1,13 @@
 #!/bin/bash
 
-SH="${HOME}/.zshrc"
+# check which shell is being used
+if [ -f "${HOME}/.bashrc" ]; then
+	SH=${HOME}/.bashrc
+else
+	SH="${HOME}/.zshrc"
+fi
 
-echo '# ~~~~~~~~~ flerpans dotfiles config ~~~~~~~~~ #' >> $SH
+echo '# ~~~~~~~~~ andreys dotfiles config ~~~~~~~~~ #' >> $SH
 
 for file in shell/*; do
 	echo "${file}"
