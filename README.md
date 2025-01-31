@@ -30,7 +30,10 @@ git log --graph --pretty=format:'%C(auto)%h %C(cyan)(%cr)%Creset%C(auto)%d%Crese
 <!--
 
 # ZSH manual: https://zsh-manual.netlify.app/
-# inspiration dotfiles: https://github.com/mathiasbynens/dotfiles/tree/main
+
+# inspiration 
+# dotfiles: https://github.com/bartekspitza/dotfiles/blob/master/install.sh
+# bashprompt: https://github.com/mathiasbynens/dotfiles/blob/main/.bash_prompt
 
 # to do
 
