@@ -7,7 +7,7 @@ else
 	SH="${HOME}/.zshrc"
 fi
 
-echo '# ~~~~~~~~~ andreys dotfiles config ~~~~~~~~~ #' >> $SH
+echo '# ~~~~~~~~~ flerpans dotfiles config ~~~~~~~~~ #' >> $SH
 
 for file in shell/*; do
 	echo "${file}"
