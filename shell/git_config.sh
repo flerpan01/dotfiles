@@ -5,6 +5,7 @@ alias gd='git diff'
 alias gc='git commit -m'
 alias gca='git commit --amend'
 alias gcan='git commit --amend --no-edit'
+alias gsw='git switch'
 
 alias gl="git log --graph --pretty=format:'%C(auto)%h %C(cyan)(%cr)%Creset%C(auto)%d%Creset %s'"
 
