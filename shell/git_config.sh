@@ -7,7 +7,7 @@ alias gca='git commit --amend'
 alias gcan='git commit --amend --no-edit'
 alias gsw='git switch'
 
-alias gl="git log --graph --pretty=format:'%C(auto)%h %C(cyan)(%cr)%Creset%C(auto)%d%Creset %s'"
+alias gl="git log --graph --pretty=format:'%C(auto)%h %C(cyan)(%cr)%Creset%C(magenta)%d%Creset %s'"
 
 alias gb="git branch --format='%(HEAD) %(color:cyan)%(refname:short)%(color:reset) - %(contents:subject) %(color:magenta)(%(committerdate:relative))' --sort=-committerdate"
 
