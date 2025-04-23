@@ -16,3 +16,6 @@ done
 
 echo 'Adding symbolic link to tmux.conf'
 ln -sf "${HOME}/.dotfiles/.tmux.conf" ~/.tmux.conf
+
+echo 'Adding symbolic link to Rprofile'
+ln -sf "${HOME}/.dotfiles/.Rprofile" ~/.Rprofile
